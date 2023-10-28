@@ -22,6 +22,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "area" */ "../views/AreaView.vue"),
   },
+  {
+    path: "/area/:id",
+    name: "areaUpdate",
+    component: () =>
+      import(/* webpackChunkName: "areaUpdate" */ "../views/AreaUpdate.vue"),
+  },
 ];
 
 const router = createRouter({
