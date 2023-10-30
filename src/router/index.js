@@ -28,6 +28,21 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "areaUpdate" */ "../views/AreaUpdate.vue"),
   },
+
+  {
+    path: "/activo",
+    name: "activo",
+    component: () =>
+      import(/* webpackChunkName: "activo" */ "../views/ActivoView.vue"),
+  },
+  {
+    path: "/activo/:id",
+    name: "activoUpdate",
+    component: () =>
+      import(
+        /* webpackChunkName: "activoUpdate" */ "../views/ActivoUpdate.vue"
+      ),
+  },
 ];
 
 const router = createRouter({

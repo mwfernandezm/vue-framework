@@ -1,14 +1,35 @@
 <template>
-  <h1>Areas Editar</h1>
-  <form @submit.prevent="update()">
-    <p>Nombre: <input type="text" v-model="payload.nombre" required /></p>
-    <p>Encargado: <input type="text" v-model="payload.encargado" required /></p>
-    <p>
-      Cant Funcionarios:
-      <input type="text" v-model="payload.cantFuncionarios" required />
-    </p>
-    <button type="submit">Actualizar</button>
-  </form>
+  <div class="container">
+    <h5>Areas Editar</h5>
+    <div class="card">
+      <div class="card-content">
+        <form @submit.prevent="update()">
+          <p>Nombre: <input type="text" v-model="payload.nombre" required /></p>
+          <p>
+            Encargado:
+            <input type="text" v-model="payload.encargado" required />
+          </p>
+          <p>
+            Cant Funcionario:
+            <input type="text" v-model="payload.cantFuncionario" required />
+          </p>
+          <p>
+            <label>
+              <input
+                type="checkbox"
+                class="filled-in"
+                v-model="payload.active"
+              />
+              <span>Activo</span>
+            </label>
+          </p>
+          <button type="submit" class="waves-effect waves-light btn-small">
+            Editar
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
 </template>
 <script>
 export default {
@@ -21,7 +42,8 @@ export default {
       payload: {
         nombre: null,
         encargado: null,
-        cantFuncionarios: null,
+        cantFuncionario: null,
+        active: null,
       },
     };
   },

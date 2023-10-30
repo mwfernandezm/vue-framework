@@ -4,19 +4,50 @@
       "id": 1,
       "nombre": "finanzas",
       "encargado": "Juan Linares Pozo",
-      "cantFuncionarios": 4
+      "cantFuncionario": 4,
+      "active": true
     },
     {
       "id": 2,
       "nombre": "tic",
       "encargado": "Manuel Perez Llobet",
-      "cantFuncionarios": "4"
+      "cantFuncionario": "4",
+      "active": true
     },
     {
       "nombre": "rrhh",
       "encargado": "Julia Fernandez Linares",
-      "cantFuncionarios": "6",
-      "id": 3
+      "cantFuncionario": "4",
+      "id": 3,
+      "active": true
+    },
+    {
+      "nombre": "juridico",
+      "encargado": "Pedro Martinez Lopez",
+      "cantFuncionario": "3",
+      "id": 4,
+      "active": true
+    },
+    {
+      "nombre": "ci",
+      "encargado": "Vanessa Blanco Toro",
+      "cantFuncionario": "2",
+      "id": 5,
+      "active": false
+    },
+    {
+      "nombre": "tesoreria",
+      "encargado": "Juliana Pelaez Vaca",
+      "cantFuncionario": "3",
+      "active": false,
+      "id": 6
+    },
+    {
+      "nombre": "adminstracion",
+      "encargado": "Pedro Martinez Lopez",
+      "cantFuncionario": "3",
+      "active": true,
+      "id": 7
     }
   ],
   "activos": [
@@ -27,6 +58,30 @@
       "modelo": "pavillon 360",
       "estado": "nuevo",
       "areaId": 1
+    },
+    {
+      "tipo": "muebles",
+      "marca": "Tramontina",
+      "modelo": "TKR-3",
+      "estado": "usado",
+      "areaId": 2,
+      "id": 2
+    },
+    {
+      "tipo": "Impresoras",
+      "marca": "Epson",
+      "modelo": "EPA-2",
+      "estado": "desuso",
+      "areaId": 3,
+      "id": 3
+    },
+    {
+      "tipo": "laptops",
+      "marca": "IBM",
+      "modelo": "Lenovo",
+      "estado": "nuevo",
+      "areaId": 4,
+      "id": 4
     }
   ]
 }

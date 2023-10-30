@@ -1,10 +1,12 @@
 <template>
   <Menu></Menu>
   <router-view />
+  <Footer></Footer>
 </template>
 
 <script>
 import Menu from "@/components/Menu.vue";
+import Footer from "@/components/Footer.vue";
 export default {
   name: "MyMenu",
   props: {
@@ -12,6 +14,7 @@ export default {
   },
   components: {
     Menu,
+    Footer,
   },
 };
 </script>
@@ -25,16 +28,16 @@ export default {
   color: #2c3e50;
 }
 
-nav {
-  padding: 30px;
+//nav {
+//  padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+//  a {
+//    font-weight: bold;
+//    color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
+//    &.router-link-exact-active {
+//      color: #42b983;
+//    }
+//  }
+//}
 </style>
