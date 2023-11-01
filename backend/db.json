@@ -43,10 +43,10 @@
       "id": 6
     },
     {
-      "nombre": "adminstracion",
-      "encargado": "Pedro Martinez Lopez",
+      "nombre": "administracion",
+      "encargado": "Pedro Martinez Martinez",
       "cantFuncionario": "3",
-      "active": true,
+      "active": false,
       "id": 7
     }
   ],
@@ -68,7 +68,7 @@
       "id": 2
     },
     {
-      "tipo": "Impresoras",
+      "tipo": "impresoras",
       "marca": "Epson",
       "modelo": "EPA-2",
       "estado": "desuso",
@@ -79,8 +79,8 @@
       "tipo": "laptops",
       "marca": "IBM",
       "modelo": "Lenovo",
-      "estado": "nuevo",
-      "areaId": 4,
+      "estado": "usado",
+      "areaId": 2,
       "id": 4
     }
   ]

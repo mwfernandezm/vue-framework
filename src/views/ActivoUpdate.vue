@@ -7,7 +7,10 @@
           <p>Tipo: <input type="text" v-model="payload.tipo" required /></p>
           <p>Marca: <input type="text" v-model="payload.marca" required /></p>
           <p>Modelo: <input type="text" v-model="payload.modelo" required /></p>
-          <p>Estado: <input type="text" v-model="payload.estado" required /></p>
+          <p>
+            Estado (nuevo o usado o desuso):
+            <input type="text" v-model="payload.estado" required />
+          </p>
           <p>
             Area Id: <input type="text" v-model="payload.areaId" required />
           </p>
