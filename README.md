@@ -1,6 +1,6 @@
 # integrantes del grupo
 
-Los integrantes que participaron en el desarrollo de la app de inventarios para la empresa fictcia F&Fson:
+Los integrantes que participaron en el desarrollo de la app de inventarios para la empresa ficticia F&F son:
 
 Fernandez Mamani Marin Wenceslao
 
@@ -35,18 +35,24 @@ La app inventarios permite agregar, quitar, editar y mostrar las AREAS de una em
 La app inventarios permite agregar, quitar, editar y mostrar los ACTIVOS que cada AREA aplicando busquedas y filtros.
 con una busqueda y filtros
 
-La app inventarios corre sobre el puerto 8080
+La app inventarios corre sobre el puerto 8080:
 
 \inventarios\npm run serve
+
 http://localhost:8080/
 
-La base de datos esta corriendo sobre el puerto 3000
+La base de datos corre sobre el puerto 3000:
 
 \inventarios\backend> json-server --watch db.json
+
 Resources
+
 http://localhost:3000/areas
+
 http://localhost:3000/activos
+
 Home
+
 http://localhost:3000
 
 ## Project setup
